@@ -45,4 +45,6 @@ Return = find_anagram("Dormitory", "Dirty room")
 print(Return)
 Return = find_anagram("hello", "ellho")
 print(Return)
+Return = find_anagram("heavy rain", "hire a navy")
+print(Return)
 
