@@ -10,6 +10,9 @@ def find_anagram(word, anagram):
     # if they are equal, return True.
     # else, return False
 
+    word = word.islower()
+    anagram = anagram.islower()
+
     new_word = word.replace(" ", "")
     word_letters = {}
     for letter in new_word:
